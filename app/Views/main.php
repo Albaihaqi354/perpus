@@ -30,6 +30,12 @@
   <link href="<?= base_url('public/gt') ?>/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
   <!-- Custom Theme Style -->
   <link href="<?= base_url('public/gt') ?>/build/css/custom.min.css" rel="stylesheet">
+  <!-- Datatables -->
+  <link href="<?= base_url('public/gt') ?>/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+  <link href=".<?= base_url('public/gt') ?>/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url('public/gt') ?>/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url('public/gt') ?>/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="nav-md">
@@ -57,7 +63,7 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-user"></i> User <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a href="#">Staf</a></li>
+                    <li><a href="<?= base_url('/staff') ?>">Staf</a></li>
                   </ul>
                 </li>
               </ul>
@@ -71,7 +77,7 @@
                 </li>
               </ul>
               <ul class="nav side-menu">
-                <li><a><i class="fa fa-user"></i> Client <span class="fa fa-chevron-down"></span></a>
+                <li><a><i class="fa fa-group"></i> Client <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                     <li><a href="#">Borrower</a></li>
                   </ul>
@@ -121,7 +127,7 @@
       <!-- footer content -->
       <footer>
         <div class="pull-right">
-          MyLib by <a href="#">MeiyAlfa</a>
+          Perpus by <a href="#">Albaihaqi</a>
         </div>
         <div class="clearfix"></div>
       </footer>
@@ -165,6 +171,22 @@
   <script src="<?= base_url('public/gt') ?>/vendors/starrr/dist/starrr.js"></script>
   <!-- Custom Theme Scripts -->
   <script src="<?= base_url('public/gt') ?>/build/js/custom.min.js"></script>
+  <!-- Datatables -->
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/jszip/dist/jszip.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/pdfmake/build/pdfmake.min.js"></script>
+  <script src="<?= base_url('public/gt') ?>/vendors/pdfmake/build/vfs_fonts.js"></script>
 
 </body>
 

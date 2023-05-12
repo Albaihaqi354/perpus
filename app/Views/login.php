@@ -32,6 +32,7 @@
       <div class="animate form login_form">
         <section class="login_content">
           <form action="<?= base_url('auth') ?>" method="post" enctype="multipart/form-data">
+            <?= csrf_field() ?>
             <h1>Login Form</h1>
 
             <?php if (!empty(session()->getFlashdata('error'))) : ?>
@@ -68,8 +69,11 @@
 
               <div>
                 <h1><i class="fa fa-book"></i> Perpustakaan</h1>
-                <p><i class="fa fa-google"></i> bianalbaihaqi@gmail.com</p>
-                <p><i class="fa fa-github"></i> https://github.com/Albaihaqi354</p>
+                <p>Sosial Media</p>
+                <div style="display:flex;">
+                  <p><i class="fa fa-google"></i> bianalbaihaqi@gmail.com</p>
+                  <p><i class="fa fa-github"></i> https://github.com/Albaihaqi354</p>
+                </div>
               </div>
             </div>
           </form>
