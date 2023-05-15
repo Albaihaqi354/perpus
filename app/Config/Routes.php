@@ -38,10 +38,23 @@ $routes->get('/logout', 'Auth::logout');
 $routes->get('/staff', 'Staff::index');
 $routes->get('/staff-add', 'Staff::add');
 $routes->post('/staff-addpro', 'Staff::addpro');
-$routes->get('/staff-edit', 'Staff::edit');
+$routes->get('/staff-edit/(:num)', 'Staff::edit/$1');
 $routes->post('/staff-editpro', 'Staff::editpro');
-$routes->get('/staff-del', 'Staff::del');
+$routes->get('/staff-del/(:num)', 'Staff::del/$1');
 
+$routes->get('/publisher', 'Publisher::index');
+$routes->get('/publisher-add', 'Publisher::add');
+$routes->post('/publisher-addpro', 'Publisher::addpro');
+$routes->get('/publisher-edit/(:num)', 'Publisher::edit/$1');
+$routes->post('/publisher-editpro', 'Publisher::editpro');
+$routes->get('/publisher-del/(:num)', 'Publisher::del/$1');
+
+$routes->get('/category', 'Category::index');
+$routes->get('/category-add', 'Category::add');
+$routes->post('/category-addpro', 'Category::addpro');
+$routes->get('/category-edit/(:num)', 'Category::edit/$1');
+$routes->post('/category-editpro', 'Category::editpro');
+$routes->get('/category-del/(:num)', 'Category::del/$1');
 
 
 /*
