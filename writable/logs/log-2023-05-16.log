@@ -1,0 +1,1061 @@
+INFO - 2023-05-16 08:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:18 --> CSRF token verified.
+INFO - 2023-05-16 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 08:13:02 --> Undefined array key "birth date"
+in APPPATH\Views\borrower\form.php on line 40.
+ 1 APPPATH\Views\borrower\form.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "birth date"', 'C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('borrower/form', [], true)
+ 5 APPPATH\Controllers\Borrower.php(104): view('borrower/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrower->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrower))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 08:13:43 --> Undefined array key "birth date"
+in APPPATH\Views\borrower\form.php on line 40.
+ 1 APPPATH\Views\borrower\form.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "birth date"', 'C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('borrower/form', [], true)
+ 5 APPPATH\Controllers\Borrower.php(104): view('borrower/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrower->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrower))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 08:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:40 --> CSRF token verified.
+INFO - 2023-05-16 08:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 08:14:51 --> Undefined array key "birth date"
+in APPPATH\Views\borrower\form.php on line 40.
+ 1 APPPATH\Views\borrower\form.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "birth date"', 'C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\borrower\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('borrower/form', [], true)
+ 5 APPPATH\Controllers\Borrower.php(104): view('borrower/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrower->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrower))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 08:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 08:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:20:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-categ' at line 3 in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:20:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-categ' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` USING (`book`.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-category`.`id`)
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` USING (`book`.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-category`.`id`)
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` USING (`book`.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-category`.`id`)
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` USING (`book`.`id_publisher-publisher`.`id`)
+JOIN `category` USING (`book`.`id_category-category`.`id`)
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:22:08 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:22:08 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 09:27:21 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Book.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Book', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:27:51 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:27:51 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:29:12 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:29:12 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:29:14 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:29:14 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:29:41 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:29:41 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:31:03 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:31:03 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:31:07 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:31:07 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+LEFT JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:31:43 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:31:43 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 09:31:53 --> mysqli_sql_exception: Table 'perpus.publishers' doesn't exist in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-16 09:31:53 --> Table 'perpus.publishers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `book`.`id` as `id`, `book`.`title`, `book`.`author`, `book`.`publication_year`, `publisher`.`name`, `category`.`category`, `book`.`quantity`
+FROM `book`
+JOIN `publishers` ON `book`.`id_publisher`=`publisher`.`id`
+JOIN `category` ON `book`.`id_category`=`category`.`id`
+WHERE `book`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Book.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 09:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 09:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 10:08:06 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:08:18 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:08:28 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:08:30 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:08:30 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:08:30 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:10:23 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:10:24 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:11:35 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 10:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 10:11:58 --> Class "app\models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:15:55 --> Class "app\Models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:15:57 --> Class "app\Models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:16:12 --> Class "app\Models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 10:17:20 --> Class "app\Models\PublisherModel" not found
+in APPPATH\Controllers\Book.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Book->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 10:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 10:39:23 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 61.
+ 1 APPPATH\Views\book\form.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(50): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:48:52 --> CSRF token verified.
+INFO - 2023-05-16 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:55:52 --> CSRF token verified.
+INFO - 2023-05-16 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:02:14 --> CSRF token verified.
+INFO - 2023-05-16 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:03:47 --> CSRF token verified.
+INFO - 2023-05-16 11:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:08:52 --> CSRF token verified.
+INFO - 2023-05-16 11:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:10:24 --> CSRF token verified.
+INFO - 2023-05-16 11:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:11:15 --> CSRF token verified.
+INFO - 2023-05-16 11:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:11:23 --> CSRF token verified.
+INFO - 2023-05-16 11:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:14 --> CSRF token verified.
+INFO - 2023-05-16 11:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:23 --> CSRF token verified.
+INFO - 2023-05-16 11:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:18:13 --> CSRF token verified.
+INFO - 2023-05-16 11:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:18:26 --> Undefined variable $publisher
+in APPPATH\Views\book\form.php on line 60.
+ 1 APPPATH\Views\book\form.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $publisher', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(114): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:22:06 --> Undefined variable $publisher
+in APPPATH\Views\book\form.php on line 60.
+ 1 APPPATH\Views\book\form.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $publisher', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(114): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:23:37 --> Undefined array key "quantity"
+in APPPATH\Views\book\form.php on line 86.
+ 1 APPPATH\Views\book\form.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "quantity"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:31:00 --> CSRF token verified.
+INFO - 2023-05-16 11:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:31:00 --> Undefined array key "email"
+in APPPATH\Controllers\Book.php on line 128.
+ 1 APPPATH\Controllers\Book.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:47:52 --> CSRF token verified.
+INFO - 2023-05-16 11:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:47:52 --> Undefined array key "email"
+in APPPATH\Controllers\Book.php on line 128.
+ 1 APPPATH\Controllers\Book.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-16 11:48:05 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'perpus', 3306, '', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\perpus\app\Controllers\Book.php(110): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\perpus\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\perpus\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\laragon\www\perpus\app\Controllers\Book.php(110): CodeIgniter\BaseModel->first()
+#6 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-16 11:48:05 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `book`
+WHERE `id` = :id:
+AND `book`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Book.php(110): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:51:40 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:51:46 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:56:28 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:56:37 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:57:38 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:58:14 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:59:42 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 11:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 11:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 11:59:46 --> Undefined array key "name"
+in APPPATH\Views\book\form.php on line 75.
+ 1 APPPATH\Views\book\form.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\perpus\\app\\Views\\book\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('book/form', [], true)
+ 5 APPPATH\Controllers\Book.php(116): view('book/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:00:57 --> CSRF token verified.
+INFO - 2023-05-16 12:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 12:00:57 --> Undefined array key "email"
+in APPPATH\Controllers\Book.php on line 128.
+ 1 APPPATH\Controllers\Book.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:01:18 --> CSRF token verified.
+INFO - 2023-05-16 12:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 12:01:18 --> Undefined array key "email"
+in APPPATH\Controllers\Book.php on line 128.
+ 1 APPPATH\Controllers\Book.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:02:07 --> CSRF token verified.
+INFO - 2023-05-16 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 12:02:07 --> Undefined array key "email"
+in APPPATH\Controllers\Book.php on line 128.
+ 1 APPPATH\Controllers\Book.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:03:20 --> CSRF token verified.
+INFO - 2023-05-16 12:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:11:06 --> CSRF token verified.
+INFO - 2023-05-16 12:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:14:38 --> CSRF token verified.
+INFO - 2023-05-16 12:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 12:14:38 --> Undefined property: App\Controllers\Book::$bookmodel
+in APPPATH\Controllers\Book.php on line 157.
+ 1 APPPATH\Controllers\Book.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Book::$bookmodel', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Book.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:17 --> CSRF token verified.
+INFO - 2023-05-16 12:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:34 --> CSRF token verified.
+INFO - 2023-05-16 12:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:19:04 --> CSRF token verified.
+INFO - 2023-05-16 12:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:19:28 --> CSRF token verified.
+INFO - 2023-05-16 12:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:18 --> CSRF token verified.
+INFO - 2023-05-16 12:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:33 --> CSRF token verified.
+INFO - 2023-05-16 12:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:22:25 --> CSRF token verified.
+INFO - 2023-05-16 12:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:16 --> CSRF token verified.
+INFO - 2023-05-16 12:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:30 --> CSRF token verified.
+INFO - 2023-05-16 12:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:35 --> CSRF token verified.
+INFO - 2023-05-16 12:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:25:22 --> CSRF token verified.
+INFO - 2023-05-16 12:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-16 12:25:22 --> Undefined array key "password"
+in APPPATH\Controllers\Borrower.php on line 153.
+ 1 APPPATH\Controllers\Borrower.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\perpus\\app\\Controllers\\Borrower.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrower->editpro()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrower))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-16 12:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:26:40 --> CSRF token verified.
+INFO - 2023-05-16 12:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:27:23 --> CSRF token verified.
+INFO - 2023-05-16 12:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:28:01 --> CSRF token verified.
+INFO - 2023-05-16 12:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:29:52 --> CSRF token verified.
+INFO - 2023-05-16 12:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-16 12:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

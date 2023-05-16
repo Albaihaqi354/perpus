@@ -2,16 +2,15 @@
 
 namespace App\Controllers;
 
-use App\models\PublisherModel;
+use App\models\BorrowerModel;
 
-
-class publisher extends BaseController
+class Borrower extends BaseController
 {
-    protected $publishermodel;
+    protected $borrowermodel;
 
     public function __construct()
     {
-        $this->publishermodel = new PublisherModel();
+        $this->borrowermodel = new BorrowerModel();
     }
 
     public function index()
@@ -20,10 +19,10 @@ class publisher extends BaseController
             return redirect()->to(base_url())->with('error', 'Anda Harus Login');
         }
         $data = array(
-            'publisher' => $this->publishermodel->findAll(),
+            'borrower' => $this->borrowermodel->findAll(),
         );
 
-        return view('publisher/index', $data);
+        return view('borrower/index', $data);
     }
 
     public function add()
@@ -32,7 +31,7 @@ class publisher extends BaseController
             return redirect()->to(base_url())->with('error', 'Anda Harus Login');
         }
 
-        return view('publisher/form');
+        return view('borrower/form');
     }
 
     public function addpro()
@@ -46,11 +45,19 @@ class publisher extends BaseController
         if (!$this->validate([
             'name' => [
                 'rules' => 'required',
+                'errors' => ['required' => 'wajib diisi',],
+            ],
+            'birthdate' => [
+                'rules' => 'required',
                 'errors' => ['required' => 'wajib diisi'],
             ],
             'address' => [
                 'rules' => 'required',
-                'errors' => ['required' => 'wajib diisi',],
+                'errors' => ['required' => 'wajib diisi'],
+            ],
+            'gender' => [
+                'rules' => 'required',
+                'errors' => ['required' => 'wajib diisi'],
             ],
             'contact' => [
                 'rules' => 'required|alpha_numeric',
@@ -59,18 +66,28 @@ class publisher extends BaseController
                     'alpha_numeric' => 'khusus angka',
                 ],
             ],
+            'email' => [
+                'rules' => 'required|is_unique[borrower.email]',
+                'errors' => [
+                    'required' => 'wajib diisi',
+                    'is_unique' => 'email sudah terdaftar'
+                ],
+            ],
         ])) {
             $validation = \config\Services::validation();
             session()->setFlashdata('validation', $validation->getErrors());
-            return redirect()->to('publisher-add')->withInput();
+            return redirect()->to('borrower-add')->withInput();
         }
-
-        $this->publishermodel->save([
+        $this->borrowermodel->save([
             'name' => $post['name'],
+            'birthdate' => $post['birthdate'],
             'address' => $post['address'],
-            'contact' => ($post['contact']),
+            'gender' => $post['gender'],
+            'contact' => $post['contact'],
+            'email' => $post['email'],
+
         ]);
-        return redirect()->to('publisher')->with('info', 'data berhasil ditambah');
+        return redirect()->to('borrower')->with('info', 'data berhasil ditambah');
     }
 
     public function edit($id)
@@ -80,11 +97,11 @@ class publisher extends BaseController
         }
 
         $data = array(
-            'item' => $this->publishermodel->where(['id' => $id])->first(),
+            'item' => $this->borrowermodel->where(['id' => $id])->first(),
             'id' => $id,
         );
 
-        return view('publisher/form', $data);
+        return view('borrower/form', $data);
     }
 
     public function editpro()
@@ -94,39 +111,65 @@ class publisher extends BaseController
         }
 
         $post = $this->request->getPost();
-        $datapost = $this->publishermodel->where(['id' => $post['id']])->first();
+        $datapost = $this->borrowermodel->where(['id' => $post['id']])->first();
 
-        if ($post['address'] == $datapost['address']) {
+        if ($post['email'] == $datapost['email']) {
             if (!$this->validate([
                 'name' => [
                     'rules' => 'required',
                     'errors' => ['required' => 'wajib diisi'],
                 ],
+                'birthdate' => [
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => 'wajib diisi',
+                    ],
+                ],
+                'address' => [
+                    'rules' => 'required',
+                    'errors' => ['required' => 'wajib diisi'],
+                ],
+                'gender' => [
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => 'wajib diisi',
+                    ],
+                ],
                 'contact' => [
                     'rules' => 'required|alpha_numeric',
                     'errors' => [
                         'required' => 'wajib diisi',
-                        'alpha_numeric' => 'khusus angka',
+                        'alpha_numeric' => 'khusus huruf angka',
                     ],
                 ],
             ])) {
                 $validation = \config\Services::validation();
                 session()->setFlashdata('validation', $validation->getErrors());
-                return redirect()->to('publisher-add')->withInput();
+                return redirect()->to('borrower-edit/' . $post['id'])->withInput();
             }
-            $this->publishermodel->save([
+            $this->borrowermodel->save([
                 'id'    => $post['id'],
                 'name' => $post['name'],
-                'contact' => ($post['contact']),
+
             ]);
-            return redirect()->to('publisher')->with('info', 'data berhasil ditambah');
+            return redirect()->to('borrower')->with('info', 'data berhasil ditambah');
         } else {
             if (!$this->validate([
                 'name' => [
                     'rules' => 'required',
                     'errors' => ['required' => 'wajib diisi'],
                 ],
+                'birthdate' => [
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => 'wajib diisi',
+                    ],
+                ],
                 'address' => [
+                    'rules' => 'required',
+                    'errors' => ['required' => 'wajib diisi'],
+                ],
+                'gender' => [
                     'rules' => 'required',
                     'errors' => [
                         'required' => 'wajib diisi',
@@ -136,21 +179,31 @@ class publisher extends BaseController
                     'rules' => 'required|alpha_numeric',
                     'errors' => [
                         'required' => 'wajib diisi',
-                        'alpha_numeric' => 'khusus angka',
+                        'alpha_numeric' => 'khusus huruf angka',
+                    ],
+                ],
+                'email' => [
+                    'rules' => 'required|is_unique[borrower.email]',
+                    'errors' => [
+                        'required' => 'wajib diisi',
+                        'is_unique' => 'email sudah terdaftar'
                     ],
                 ],
             ])) {
                 $validation = \config\Services::validation();
                 session()->setFlashdata('validation', $validation->getErrors());
-                return redirect()->to('publisher-edit/' . $post['id'])->withInput();
+                return redirect()->to('borrower-add')->withInput();
             }
-            $this->publishermodel->save([
+            $this->borrowermodel->save([
                 'id'    => $post['id'],
                 'name' => $post['name'],
+                'birthdate' => $post['birthdate'],
                 'address' => $post['address'],
-                'contact' => ($post['contact']),
+                'gender' => $post['gender'],
+                'contact' => $post['contact'],
+                'email' => $post['email'],
             ]);
-            return redirect()->to('publisher')->with('info', 'data berhasil ditambah');
+            return redirect()->to('borrower')->with('info', 'data berhasil ditambah');
         }
     }
     public function del($id)
@@ -159,9 +212,9 @@ class publisher extends BaseController
             return redirect()->to(base_url())->with('error', 'Anda Harus Login');
         }
 
-        $delete = $this->publishermodel->delete($id);
+        $delete = $this->borrowermodel->delete($id);
         if ($delete) {
-            return redirect()->to('publisher');
+            return redirect()->to('borrower');
         }
     }
 }
