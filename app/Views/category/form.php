@@ -35,6 +35,7 @@ $target_url = ($is_edit) ? "/category-editpro" : "/category-addpro";
                 </div>
               </div>
               <button class="btn btn-success" style="float: right;"><?= ($is_edit) ? 'Edit' : 'Save' ?></button>
+              <a type="button" class="btn btn-danger" href="<?= base_url('/category') ?>">Back</a>
             </form>
 
 

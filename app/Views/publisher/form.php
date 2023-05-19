@@ -53,8 +53,8 @@ $target_url = ($is_edit) ? "/publisher-editpro" : "/publisher-addpro";
                                 </div>
                             </div>
                             <button class="btn btn-success" style="float: right;"><?= ($is_edit) ? 'Edit' : 'Save' ?></button>
+                            <a type="button" class="btn btn-danger" href="<?= base_url('/publisher') ?>">Back</a>
                         </form>
-
 
 
 

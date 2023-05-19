@@ -77,6 +77,8 @@ $routes->get('/borrow-edit/(:num)', 'Borrow::edit/$1');
 $routes->post('/borrow-editpro', 'Borrow::editpro');
 $routes->get('/borrow-del/(:num)', 'Borrow::del/$1');
 
+$routes->get('/borrow-return/(:num)', 'Borrow::returnbook/$1');
+
 
 /*
  * --------------------------------------------------------------------

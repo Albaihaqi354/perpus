@@ -53,6 +53,7 @@ $target_url = ($is_edit) ? "/staff-editpro" : "/staff-addpro";
                                 </div>
                             </div>
                             <button class="btn btn-success" style="float: right;"><?= ($is_edit) ? 'Edit' : 'Save' ?></button>
+                            <a type="button" class="btn btn-danger" href="<?= base_url('/staff') ?>">Back</a>
                         </form>
 
 
