@@ -1,0 +1,485 @@
+INFO - 2023-05-17 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 08:53:53 --> CSRF token verified.
+INFO - 2023-05-17 08:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 08:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-17 09:24:52 --> Class "App\models\BorrowModel" not found
+in APPPATH\Controllers\borrow.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Borrow->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 09:25:48 --> Class "App\models\BorrowModel" not found
+in APPPATH\Controllers\borrow.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Borrow->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 09:26:41 --> Class "App\models\BorrowModel" not found
+in APPPATH\Controllers\borrow.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Borrow->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 09:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 09:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:09:22 --> mysqli_sql_exception: Unknown column 'borrow.title' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `borrow`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `borrow`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Borrow.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-17 10:09:22 --> Unknown column 'borrow.title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Borrow.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:13:09 --> mysqli_sql_exception: Unknown column 'borrow.title' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `borrow`...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow`...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow`...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `borrow`...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\perpus\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\perpus\app\Controllers\Borrow.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->index()
+#8 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-17 10:13:09 --> Unknown column 'borrow.title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `borrow`.`id` as `id`, `borrow`.`title`, `borrow`.`author`, `borrow`.`publication_year`, `publisher`.`name`, `category`.`category`, `borrow`.`quantity`
+FROM `borrow`
+LEFT JOIN `publisher` ON `borrow`.`id_publisher`=`publisher`.`id`
+LEFT JOIN `category` ON `borrow`.`id_category`=`category`.`id`
+WHERE `borrow`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Borrow.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:19:25 --> CSRF token verified.
+INFO - 2023-05-17 10:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:19:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:19:25 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:19:25\', \'2023-05-17 10:19:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:19:25\', \'2023-05-17 10:19:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:19:25\', \'2023-05-17 10:19:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:20:30 --> CSRF token verified.
+INFO - 2023-05-17 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:20:30 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:20:30 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:20:30\', \'2023-05-17 10:20:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:20:30\', \'2023-05-17 10:20:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:20:30\', \'2023-05-17 10:20:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:24:14 --> CSRF token verified.
+INFO - 2023-05-17 10:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:24:14 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:24:14 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:24:14\', \'2023-05-17 10:24:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:24:14\', \'2023-05-17 10:24:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:24:14\', \'2023-05-17 10:24:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:26:29 --> CSRF token verified.
+INFO - 2023-05-17 10:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:26:29 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:26:29 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:29\', \'2023-05-17 10:26:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:29\', \'2023-05-17 10:26:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:29\', \'2023-05-17 10:26:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:26:36 --> CSRF token verified.
+INFO - 2023-05-17 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:26:36 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:26:36 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:36\', \'2023-05-17 10:26:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:36\', \'2023-05-17 10:26:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:26:36\', \'2023-05-17 10:26:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:28:13 --> CSRF token verified.
+INFO - 2023-05-17 10:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:28:13 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:28:13 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:13\', \'2023-05-17 10:28:13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:13\', \'2023-05-17 10:28:13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:13\', \'2023-05-17 10:28:13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:28:21 --> CSRF token verified.
+INFO - 2023-05-17 10:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:28:21 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:28:21 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:21\', \'2023-05-17 10:28:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:21\', \'2023-05-17 10:28:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-19\', \'pinjem\', \'2023-05-17 10:28:21\', \'2023-05-17 10:28:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:35:27 --> CSRF token verified.
+INFO - 2023-05-17 10:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-17 10:35:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\perpus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\perpus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\laragon\www\perpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\laragon\www\perpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\laragon\www\perpus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\perpus\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\perpus\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\perpus\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\perpus\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\perpus\app\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\perpus\system\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+#10 C:\laragon\www\perpus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+#11 C:\laragon\www\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\perpus\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-17 10:35:27 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-17\', \'...\', \'2023-05-17 10:35:27\', \'2023-05-17 10:35:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-17\', \'...\', \'2023-05-17 10:35:27\', \'2023-05-17 10:35:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (\'2\', \'3\', \'4\', \'2023-05-17\', \'...\', \'2023-05-17 10:35:27\', \'2023-05-17 10:35:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow` (`id_borrower`, `id_book`, `id_staff`, `due_date`, `note`, `created_at`, `updated_at`) VALUES (:id_borrower:, :id_book:, :id_staff:, :due_date:, :note:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Borrow.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Borrow->addpro()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrow))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-17 10:36:21 --> CSRF token verified.
+INFO - 2023-05-17 10:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:30 --> CSRF token verified.
+INFO - 2023-05-17 10:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:37 --> CSRF token verified.
+INFO - 2023-05-17 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 10:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:31:55 --> CSRF token verified.
+INFO - 2023-05-17 11:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:33:29 --> CSRF token verified.
+INFO - 2023-05-17 11:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:40:06 --> CSRF token verified.
+INFO - 2023-05-17 11:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:42 --> CSRF token verified.
+INFO - 2023-05-17 11:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:48 --> CSRF token verified.
+INFO - 2023-05-17 11:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:44:24 --> CSRF token verified.
+INFO - 2023-05-17 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:34 --> CSRF token verified.
+INFO - 2023-05-17 11:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:40 --> CSRF token verified.
+INFO - 2023-05-17 11:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:46:53 --> CSRF token verified.
+INFO - 2023-05-17 11:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 11:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:01 --> CSRF token verified.
+INFO - 2023-05-17 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-17 19:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -44,7 +44,7 @@
       <div class="col-md-3 left_col">
         <div class="left_col scroll-view">
           <div class="navbar nav_title" style="border: 0;">
-            <a href="#" class="site_title"><i class="fa fa-book"></i> <span>Perpus Kita</span></a>
+            <a href="<?= base_url('/home') ?>" class="site_title"><i class="fa fa-book"></i> <span>Perpus Kita</span></a>
           </div>
 
           <div class="clearfix">
@@ -86,7 +86,7 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-edit"></i> Transaction <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a href="#">Borrow</a></li>
+                    <li><a href="<?= base_url('/borrow') ?>">Borrow</a></li>
                   </ul>
                 </li>
               </ul>
